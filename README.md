@@ -10,3 +10,4 @@ Repository for work created during the html and css course at The Tech Academy
 - *photo-package.html* - This file is the result of a tutorial about making an image with a rollover text overlay among other things.
   + Uses *photo-style.css*
 
+The files in the SpaceSite folder are together, the final project of this set of tutorials.
