@@ -7,4 +7,6 @@ Repository for work created during the html and css course at The Tech Academy
   + Uses the corresponding *basic_style.css*, *basic_style2.css*, and *basic_style3.css* files in the css directory.
 - *css_menu_rollover.html* - This file explores how to create a menu with rollover buttons using css.
   + Uses *menu_rollover.css*
+- *photo-package.html* - This file is the result of a tutorial about making an image with a rollover text overlay among other things.
+  + Uses *photo-style.css*
 
