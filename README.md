@@ -11,3 +11,5 @@ Repository for work created during the html and css course at The Tech Academy
   + Uses *photo-style.css*
 
 The files in the SpaceSite folder are together, the final project of this set of tutorials.
+
+The files in the learningsite folder are a complete site created using the same techniques from the tutorials.
