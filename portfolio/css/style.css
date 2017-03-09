@@ -1,13 +1,15 @@
 body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
-  color: #9c6043;
+  /*color: #9c6043;*/
+  color: #fefefe;
+  background-color: #010101;
 }
 
 .jumbotron {
   font-family: Montserrat, sans-serif;
   background-color: #ffffff;
-  background: url(../images/mountain-stairs.jpg) no-repeat 50% 50%;
+  background: url(../images/background-hexes2.png) no-repeat ;
   background-attachment: fixed;
   background-size: cover;
   color: #ffffff;
@@ -18,18 +20,50 @@ body {
 	height: 500px;
 }
 
-#mainQuote {
+#headerNameMain {
 	margin: 300px 0 0 0;
 	background-color: rgba(10, 10, 10, 0.5);
 	border-radius: 0 15px 15px 0;
 }
 
-.bg-grey {
-  background-color: #d8d8d2;
+#headerFName {
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+  
+  color: #fff;
+  letter-spacing: 5pt;
+  word-spacing: 21pt;
+  font-size: 4.5em;
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  line-height: 1;
+    font-weight: 50;
+
+    padding: 0 0 0 10px;
 }
 
-.container-fluid {
-  padding: 60px 50px;
+#headerLName {
+  text-shadow: 2px 4px 5px rgba(0, 0, 0, 0.9);
+  
+  color: #fff;
+  letter-spacing: 1pt;
+  word-spacing: 21pt;
+  font-size: 4.5em;
+  text-align: left;
+  font-family: Montserrat, sans-serif;
+  line-height: 2;
+    font-weight: 600;
+
+    padding: 0 0 0 5px;
+}
+
+
+.bg-grey {
+  /*background-color: #d8d8d2;*/
+  background-color: #6d6e71;
+}
+
+#about {
+  margin: 100px 0 0 0;
 }
 
 .logo {
@@ -74,7 +108,7 @@ body {
 }
 
 .panel {
-  border: 1px solid #cc0000;
+  border: 1px solid;
   border-radius:0;
   transition: box-shadow 0.5s;
 }
@@ -122,7 +156,7 @@ body {
 .navbar {
   font-family: Montserrat, sans-serif;
   margin-bottom: 0;
-  background-color: #cc0000;
+  background-color: #000000;
   z-index: 9999;
   border: 0;
   font-size: 12px !important;
@@ -145,12 +179,33 @@ body {
   color: #fff !important;
 }
 
+footer {
+  background: url(../images/background-hexes2.png) no-repeat ;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
   color: #cc0000;
+
 }
 
 #portrait {
   vertical-align:middle;
 }
+
+
+.contactInfo {
+  color:#000000;
+  margin: 0 0 40px 0;
+  padding:0;
+}
+
+.contactInfo .h3 {
+  margin: 0;
+  padding: 0;
+}
+
